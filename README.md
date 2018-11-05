@@ -197,6 +197,8 @@ You can do the export directly from your local machine in two steps, so run the 
  
 The session.json file should be downloaded successfully.
 
+**See session.json file within this repo**
+
 ## Cleanup
 When the assignment is complete, you'll most likely want to remove the VMs created as part of the honeypot network to avoid costs incurred once your trial expires.
 
