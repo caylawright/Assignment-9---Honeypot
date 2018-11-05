@@ -1,5 +1,6 @@
 # Assignment-9---Honeypot
 
+Time spent: 20 hours spent in total
 ## Background
 
 A honeypot is a decoy application, server, or other networked resource that intentionally exposes insecure features which, when exploited by an attacker, will reveal information about the methods, tools, and possibly even the identity of that attacker. Honeypots are commonly used by security researchers to understand the threat landscape facing developers and system administrators, collecting data that might include:
@@ -202,3 +203,9 @@ The session.json file should be downloaded successfully.
 ## Cleanup
 When the assignment is complete, you'll most likely want to remove the VMs created as part of the honeypot network to avoid costs incurred once your trial expires.
 
+## NOTE
+This project took an extensive amount of time to complete (20 hours). It could have been finished in half the time but the instructions did not address many of the problems that I encountered while doing this project. I had to repeat many milestones and in the end I had to redo the whole assignment once I was unable to access my mhn-admin webpage.
+
+When I finished the assignment the first time - the next day I was unable to access my mhn-admin webpage due to a gateway error. 
+![alt type](https://imgur.com/DW4jOz6.png)
+I deleted my honeypots in hope that it was causing too much traffic which was why I was receiving a gateway error. However, that did not fix the problem and I was forced to redo the entire project since I was unable to access my mhn-admin webpage. Additionally, I was able to successfully ping to the IP for mhn-admin but was unable to ssh into the mhn-admin VM. I was unable to resolve this issue and had to recreate the mhn-admin VMs in addition to the honeypot VMs.
