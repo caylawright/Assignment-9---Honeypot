@@ -181,7 +181,7 @@ You may, however, see other attacks as well, from other IPs. In fact, it shouldn
 ![alt test](https://imgur.com/wqJal8a.png)
 ![alt test](https://imgur.com/5LuFQlH.png)
 
-**Summary of Attacks**
+## Summary of Attacks
 ![alt type](https://imgur.com/F8pO6oG.png)
 **Encountered problems viewing the attacks report even though it was visible on the map. Had to research and restart Mnemosyne in order to make it visible but for some reason after restarting it stopped showing the attacks on the map**
 
