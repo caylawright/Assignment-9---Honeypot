@@ -39,7 +39,12 @@ So to get started, make sure you have authenticated access to your cloud provide
 
 **GCP Users**
 
-To begin, download and install the GCP SDK on your local machine and initialize it such that you can use gcloud from the command line. Be sure to set a default region and zone (these instructions were tested against the us-central1 region and us-central1-c zone). Once you've initialized, you should be able to run gcloud config list and see the project, region, and zone configured in the output.
+To begin, download and install the GCP SDK on your local machine and initialize it such that you can use gcloud from the command line. Be sure to set a default region and zone (these instructions were tested against the us-central1 region and us-central1-c zone).
+```
+$ gcloud config set compute/region us-central1
+$ gcloud config set compute/zone us-central1-c
+```
+Once you've initialized, you should be able to run `gcloud config list` and see the project, region, and zone configured in the output.
 
 ## Milestone 1: Create MHN Admin VM
 
@@ -176,6 +181,8 @@ You may, however, see other attacks as well, from other IPs. In fact, it shouldn
 ![alt test](https://imgur.com/wqJal8a.png)
 ![alt test](https://imgur.com/5LuFQlH.png)
 
+**Summary of Attacks**
+![alt type](https://imgur.com/F8pO6oG.png)
 **Encountered problems viewing the attacks report even though it was visible on the map. Had to research and restart Mnemosyne in order to make it visible but for some reason after restarting it stopped showing the attacks on the map**
 
 *Commands to restart Mnemosyne:*
